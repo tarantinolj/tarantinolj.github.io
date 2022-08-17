@@ -89,7 +89,7 @@ h3:hover{
     height: 240px;
 }
 #gift--victory:hover {
-    background-image: url("/src/victory.gif");
+    background-image: url("https://tarantinolj.github.io/birthday_project/src/victory.gif");
     background-size:auto no-repeat;
 }
 
