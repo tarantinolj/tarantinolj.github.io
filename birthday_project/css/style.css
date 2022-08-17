@@ -65,31 +65,31 @@ h3:hover{
     height: 520px;
     border: 10px solid rgb(225, 189, 189);
     border-radius: 10px;
-    background-image: url("/src/gift.jpg");
+    background-image: url("birthday_project/src/gift.jpg");
     background-size: cover;
     object-fit: cover;
 }
 #gift--happy:hover {
-    background-image: url("/src/happy.gif");
+    background-image: url("birthday_project/src/happy.gif");
     background-size:auto no-repeat;
 }
 #gift--hot:hover {
-    background-image: url("/src/hot.gif");
+    background-image: url("birthday_project/src/hot.gif");
     background-size:auto no-repeat;
 }
 #gift--genius:hover {
-    background-image: url("/src/ali.gif");
+    background-image: url("birthday_project/src/ali.gif");
     background-size:auto no-repeat;
 }
 #gift--strong:hover {
-    background-image: url("/src/badass.gif");
+    background-image: url("birthday_project/src/badass.gif");
     background-size:auto no-repeat;
 }
 #gift--victory {
     height: 240px;
 }
 #gift--victory:hover {
-    background-image: url("/src/victory.gif");
+    background-image: url("birthday_project/src/victory.gif");
     background-size:auto no-repeat;
 }
 
