@@ -1,0 +1,98 @@
+:root{
+    font-family: 'Happy Monkey', cursive;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+
+}
+
+.main--content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main--content > img {
+    width: 300px;
+    border-radius:50%;
+    object-fit: cover;
+    border: 10px solid #dacad0;
+}
+.main--content > img:hover {
+    border: 10px solid #EFB0C9;
+}
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 3px black; 
+}
+.background1, .background2{
+  background-color:  #EFB0C9;
+  line-height: 40px;
+  padding: 0 10px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+h1:hover{
+    color:black;
+}
+h2:hover{
+    color:black;
+}
+h3:hover{
+    color:black;
+}
+.gift{
+    padding-top: 30px;
+}
+.gift > h2{
+    background-color:none;
+}
+
+
+.gift--img {
+    margin: 0 auto;
+    width: 470px;
+    height: 520px;
+    border: 10px solid rgb(225, 189, 189);
+    border-radius: 10px;
+    background-image: url("/src/gift.jpg");
+    background-size: cover;
+    object-fit: cover;
+}
+#gift--happy:hover {
+    background-image: url("/src/happy.gif");
+    background-size:auto no-repeat;
+}
+#gift--hot:hover {
+    background-image: url("/src/hot.gif");
+    background-size:auto no-repeat;
+}
+#gift--genius:hover {
+    background-image: url("/src/ali.gif");
+    background-size:auto no-repeat;
+}
+#gift--strong:hover {
+    background-image: url("/src/badass.gif");
+    background-size:auto no-repeat;
+}
+#gift--victory {
+    height: 240px;
+}
+#gift--victory:hover {
+    background-image: url("/src/victory.gif");
+    background-size:auto no-repeat;
+}
+
+
+
+
