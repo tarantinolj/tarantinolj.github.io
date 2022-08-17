@@ -10,7 +10,7 @@
 .container{
     width: 600px;
     margin: 0 auto;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 25px 25px 25px 25px;
     text-align: center;
     padding: 20px;
     background: linear-gradient(#a2d2ff, #EFB0C9);
